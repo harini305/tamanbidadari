@@ -1,0 +1,42 @@
+.body {
+  display: grid;
+  gap: 1rem;
+}
+
+.body p + p {
+  margin-top: 0;
+}
+
+.facilities {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: var(--gutter);
+  width: 100%;
+  max-width: 36rem;
+  border-top: 1px solid var(--line-strong);
+}
+
+.facilities li {
+  padding-block: 0.7rem;
+  border-bottom: 1px solid var(--line);
+  font-size: var(--fs-small);
+}
+
+/* Closing statement, centred so it reads as one complete line of thought */
+.closing {
+  display: grid;
+  justify-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.closing p {
+  max-width: 34em;
+}
+
+@media (max-width: 600px) {
+  .facilities {
+    grid-template-columns: 1fr;
+  }
+}

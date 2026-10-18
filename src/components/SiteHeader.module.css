@@ -1,0 +1,350 @@
+.header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 50;
+  transition: background-color 0.4s var(--ease-out), color 0.4s var(--ease-out),
+    box-shadow 0.4s var(--ease-out);
+}
+
+.overlay {
+  color: var(--white);
+  background: transparent;
+}
+
+.solid {
+  color: var(--maroon);
+  background: rgba(248, 243, 236, 0.96);
+  box-shadow: 0 1px 0 var(--line);
+}
+
+@supports (backdrop-filter: blur(8px)) {
+  .solid {
+    background: rgba(248, 243, 236, 0.88);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.isOpen {
+  color: var(--on-dark);
+  background: var(--maroon);
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  height: var(--header-h);
+}
+
+/* Wordmark */
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-decoration: none;
+  line-height: 1;
+}
+
+/* Wordmark set like the logo: uppercase name, widely tracked tagline */
+.brandName {
+  font-family: var(--font-heading);
+  font-size: 1.625rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.brandDesc {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+/* Desktop navigation */
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  list-style: none;
+}
+
+.navList > li {
+  position: relative;
+}
+
+.navLink {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.75rem 1.1rem;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.navLink::after {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 0.3rem;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s var(--ease-out);
+}
+
+.navLink:hover::after,
+.navLink[data-active]::after {
+  transform: scaleX(1);
+}
+
+.navLink[data-active]::after {
+  background: var(--orange);
+  height: 2px;
+}
+
+.navCta {
+  margin-left: 0.75rem;
+  border: 1px solid currentColor;
+  padding-inline: 1.25rem;
+}
+
+.navCta::after {
+  display: none;
+}
+
+.navCta:hover {
+  background: var(--maroon);
+  border-color: var(--maroon);
+  color: var(--on-dark);
+}
+
+.overlay .navCta:hover {
+  background: var(--white);
+  border-color: var(--white);
+  color: var(--maroon);
+}
+
+.navCta[data-active] {
+  border-color: var(--orange);
+}
+
+.caret {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0.25rem;
+  min-width: 15rem;
+  padding: 0.5rem 0;
+  list-style: none;
+  background: var(--paper);
+  color: var(--maroon);
+  box-shadow: 0 18px 40px -18px rgba(55, 0, 10, 0.35), 0 0 0 1px var(--line);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity 0.25s var(--ease-out), transform 0.25s var(--ease-out),
+    visibility 0s linear 0.25s;
+}
+
+.hasMenu:hover .menu,
+.hasMenu:focus-within .menu {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition-delay: 0s;
+}
+
+/* Closed after an option is picked, until the pointer leaves the item */
+.hasMenu[data-shut] .menu,
+.hasMenu[data-shut]:hover .menu,
+.hasMenu[data-shut]:focus-within .menu {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity 0.15s, visibility 0s linear 0.15s;
+}
+
+.menuLink {
+  display: block;
+  padding: 0.6rem 1.25rem;
+  font-size: var(--fs-small);
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.menuLink:hover,
+.menuLink[aria-current="page"] {
+  background: var(--sand);
+}
+
+.menuLink[aria-current="page"] {
+  box-shadow: inset 2px 0 0 var(--orange);
+}
+
+/* Mobile toggle */
+.toggle {
+  display: none;
+  position: relative;
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-right: -0.6rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.toggleLines,
+.toggleLines::before,
+.toggleLines::after {
+  position: absolute;
+  left: 50%;
+  width: 1.5rem;
+  height: 1.5px;
+  margin-left: -0.75rem;
+  background: currentColor;
+  transition: transform 0.3s var(--ease-out), opacity 0.2s;
+}
+
+.toggleLines {
+  top: 50%;
+}
+
+.toggleLines::before,
+.toggleLines::after {
+  content: "";
+  left: 0;
+  margin-left: 0;
+}
+
+.toggleLines::before {
+  top: -6px;
+}
+
+.toggleLines::after {
+  top: 6px;
+}
+
+.isOpen .toggleLines {
+  background: transparent;
+}
+
+.isOpen .toggleLines::before {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.isOpen .toggleLines::after {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+/* Mobile panel */
+.panel {
+  position: fixed;
+  inset: var(--header-h) 0 0;
+  overflow-y: auto;
+  background: var(--maroon);
+  color: var(--on-dark);
+}
+
+.panel[hidden] {
+  display: none;
+}
+
+.panelInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2.5rem;
+  min-height: 100%;
+  padding-block: 1.5rem 2rem;
+}
+
+.panelList {
+  list-style: none;
+  border-top: 1px solid var(--line-dark);
+}
+
+.panelList > li {
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.panelLink {
+  display: block;
+  padding-block: 0.85rem;
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 1.625rem;
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+.panelLink[aria-current="page"],
+.panelSubLink[aria-current="page"] {
+  color: var(--gold);
+}
+
+.panelSub {
+  list-style: none;
+  padding: 0 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.15rem 1rem;
+}
+
+.panelSubLink {
+  display: block;
+  padding-block: 0.4rem;
+  font-size: var(--fs-small);
+  color: var(--on-dark-soft);
+  text-decoration: none;
+}
+
+.panelFoot {
+  display: grid;
+  gap: 1rem;
+  font-size: var(--fs-small);
+  color: var(--on-dark-soft);
+}
+
+@media (max-width: 960px) {
+  .nav {
+    display: none;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .brandName {
+    font-size: 1.3125rem;
+  }
+
+  .brandDesc {
+    font-size: 0.625rem;
+    letter-spacing: 0.26em;
+  }
+}
+
+@media (max-width: 420px) {
+  .panelSub {
+    grid-template-columns: 1fr;
+  }
+}

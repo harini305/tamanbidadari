@@ -1,0 +1,5 @@
+# Only the app source and its optimised assets are needed to build the site
+docs/
+scripts/
+README.md
+AGENTS.md

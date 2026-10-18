@@ -1,0 +1,730 @@
+{
+  "pool-mountains-dusk": {
+    "alt": "Swimming pool and shaded day beds at dusk, with the mountains behind",
+    "width": 1600,
+    "height": 1063,
+    "source": "2024/01/DSC_0246-scaled.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/pool-mountains-dusk-640.webp",
+        "kb": 49
+      },
+      {
+        "w": 1024,
+        "src": "/images/pool-mountains-dusk-1024.webp",
+        "kb": 99
+      },
+      {
+        "w": 1600,
+        "src": "/images/pool-mountains-dusk-1600.webp",
+        "kb": 164
+      }
+    ]
+  },
+  "garden-tree": {
+    "alt": "Lawn with a large shade tree, a swing and wooden benches lit by lanterns",
+    "width": 1600,
+    "height": 1063,
+    "source": "2024/01/DSC_0263-scaled.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/garden-tree-640.webp",
+        "kb": 56
+      },
+      {
+        "w": 1024,
+        "src": "/images/garden-tree-1024.webp",
+        "kb": 121
+      },
+      {
+        "w": 1600,
+        "src": "/images/garden-tree-1600.webp",
+        "kb": 221
+      }
+    ]
+  },
+  "brick-rooms-evening": {
+    "alt": "Brick guest rooms with lit terraces along a garden path in the evening",
+    "width": 1600,
+    "height": 1063,
+    "source": "2024/01/DSC_0273-scaled.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/brick-rooms-evening-640.webp",
+        "kb": 58
+      },
+      {
+        "w": 1024,
+        "src": "/images/brick-rooms-evening-1024.webp",
+        "kb": 120
+      },
+      {
+        "w": 1600,
+        "src": "/images/brick-rooms-evening-1600.webp",
+        "kb": 205
+      }
+    ]
+  },
+  "reception-pavilion": {
+    "alt": "Open reception pavilion with a carved timber roof and chandelier",
+    "width": 1600,
+    "height": 1063,
+    "source": "2024/01/DSC_0283-scaled.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/reception-pavilion-640.webp",
+        "kb": 47
+      },
+      {
+        "w": 1024,
+        "src": "/images/reception-pavilion-1024.webp",
+        "kb": 91
+      },
+      {
+        "w": 1600,
+        "src": "/images/reception-pavilion-1600.webp",
+        "kb": 151
+      }
+    ]
+  },
+  "pool-buddha": {
+    "alt": "Pool terrace with a stone Buddha statue, loungers and umbrellas",
+    "width": 1600,
+    "height": 1063,
+    "source": "2024/01/DSC_0235-scaled.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/pool-buddha-640.webp",
+        "kb": 40
+      },
+      {
+        "w": 1024,
+        "src": "/images/pool-buddha-1024.webp",
+        "kb": 85
+      },
+      {
+        "w": 1600,
+        "src": "/images/pool-buddha-1600.webp",
+        "kb": 148
+      }
+    ]
+  },
+  "pool-sign-mountains": {
+    "alt": "Round pool with the Taman Bidadari sign and the mountains beyond",
+    "width": 1280,
+    "height": 850,
+    "source": "2024/03/WhatsApp-Image-2023-11-14-at-09.53.07_9c90393c.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/pool-sign-mountains-640.webp",
+        "kb": 47
+      },
+      {
+        "w": 1024,
+        "src": "/images/pool-sign-mountains-1024.webp",
+        "kb": 113
+      },
+      {
+        "w": 1280,
+        "src": "/images/pool-sign-mountains-1280.webp",
+        "kb": 198
+      }
+    ]
+  },
+  "apartment-bedroom": {
+    "alt": "Apartment bedroom with a king-size bed, desk and TV",
+    "width": 1600,
+    "height": 1063,
+    "source": "2024/01/DSC_0221-scaled.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/apartment-bedroom-640.webp",
+        "kb": 28
+      },
+      {
+        "w": 1024,
+        "src": "/images/apartment-bedroom-1024.webp",
+        "kb": 54
+      },
+      {
+        "w": 1600,
+        "src": "/images/apartment-bedroom-1600.webp",
+        "kb": 89
+      }
+    ]
+  },
+  "apartment-kitchen": {
+    "alt": "Apartment kitchenette and dining table, with doors open toward the pool",
+    "width": 1600,
+    "height": 1063,
+    "source": "2024/01/DSC_0224-scaled.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/apartment-kitchen-640.webp",
+        "kb": 39
+      },
+      {
+        "w": 1024,
+        "src": "/images/apartment-kitchen-1024.webp",
+        "kb": 77
+      },
+      {
+        "w": 1600,
+        "src": "/images/apartment-kitchen-1600.webp",
+        "kb": 128
+      }
+    ]
+  },
+  "apartment-king-bed": {
+    "alt": "King-size bed beneath a Balinese painting, with a window onto the garden",
+    "width": 1600,
+    "height": 1063,
+    "source": "2024/03/DSC_0174-scaled.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/apartment-king-bed-640.webp",
+        "kb": 32
+      },
+      {
+        "w": 1024,
+        "src": "/images/apartment-king-bed-1024.webp",
+        "kb": 67
+      },
+      {
+        "w": 1600,
+        "src": "/images/apartment-king-bed-1600.webp",
+        "kb": 115
+      }
+    ]
+  },
+  "apartment-bathroom": {
+    "alt": "Bathroom with a stone basin, shower and glass-block wall",
+    "width": 1600,
+    "height": 1063,
+    "source": "2024/03/DSC_0173-scaled.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/apartment-bathroom-640.webp",
+        "kb": 28
+      },
+      {
+        "w": 1024,
+        "src": "/images/apartment-bathroom-1024.webp",
+        "kb": 52
+      },
+      {
+        "w": 1600,
+        "src": "/images/apartment-bathroom-1600.webp",
+        "kb": 86
+      }
+    ]
+  },
+  "apartment-workspace": {
+    "alt": "Bedroom with a desk, wardrobe and king-size bed",
+    "width": 1280,
+    "height": 850,
+    "source": "2024/03/WhatsApp-Image-2023-11-14-at-09.53.06_4887c596.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/apartment-workspace-640.webp",
+        "kb": 32
+      },
+      {
+        "w": 1024,
+        "src": "/images/apartment-workspace-1024.webp",
+        "kb": 64
+      },
+      {
+        "w": 1280,
+        "src": "/images/apartment-workspace-1280.webp",
+        "kb": 98
+      }
+    ]
+  },
+  "apartment-window": {
+    "alt": "Bright bedroom with a king-size bed and a large window",
+    "width": 1280,
+    "height": 850,
+    "source": "2024/03/WhatsApp-Image-2023-11-14-at-09.53.07_a02b9de4.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/apartment-window-640.webp",
+        "kb": 23
+      },
+      {
+        "w": 1024,
+        "src": "/images/apartment-window-1024.webp",
+        "kb": 44
+      },
+      {
+        "w": 1280,
+        "src": "/images/apartment-window-1280.webp",
+        "kb": 69
+      }
+    ]
+  },
+  "quad-beds": {
+    "alt": "Room with one queen-size bed and two single beds",
+    "width": 1600,
+    "height": 1063,
+    "source": "2024/01/DSC_0043-scaled.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/quad-beds-640.webp",
+        "kb": 34
+      },
+      {
+        "w": 1024,
+        "src": "/images/quad-beds-1024.webp",
+        "kb": 74
+      },
+      {
+        "w": 1600,
+        "src": "/images/quad-beds-1600.webp",
+        "kb": 133
+      }
+    ]
+  },
+  "queen-bed-carving": {
+    "alt": "Queen-size bed below a carved Balinese panel, with a window to the pool",
+    "width": 1600,
+    "height": 1063,
+    "source": "2024/01/DSC_0051-scaled.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/queen-bed-carving-640.webp",
+        "kb": 43
+      },
+      {
+        "w": 1024,
+        "src": "/images/queen-bed-carving-1024.webp",
+        "kb": 90
+      },
+      {
+        "w": 1600,
+        "src": "/images/queen-bed-carving-1600.webp",
+        "kb": 160
+      }
+    ]
+  },
+  "quad-beds-side": {
+    "alt": "Queen-size and single beds with red runners and folded towels",
+    "width": 1280,
+    "height": 850,
+    "source": "2024/03/WhatsApp-Image-2023-11-14-at-09.07.50_470bbe7b.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/quad-beds-side-640.webp",
+        "kb": 33
+      },
+      {
+        "w": 1024,
+        "src": "/images/quad-beds-side-1024.webp",
+        "kb": 77
+      },
+      {
+        "w": 1280,
+        "src": "/images/quad-beds-side-1280.webp",
+        "kb": 136
+      }
+    ]
+  },
+  "deluxe-pool-night": {
+    "alt": "Pool lit blue at nightfall, with a stone Buddha and colourful umbrellas",
+    "width": 1280,
+    "height": 960,
+    "source": "2023/02/richfarmerbaliroom-1.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/deluxe-pool-night-640.webp",
+        "kb": 52
+      },
+      {
+        "w": 1024,
+        "src": "/images/deluxe-pool-night-1024.webp",
+        "kb": 105
+      },
+      {
+        "w": 1280,
+        "src": "/images/deluxe-pool-night-1280.webp",
+        "kb": 146
+      }
+    ]
+  },
+  "deluxe-three-beds": {
+    "alt": "Three beds with red cushions under a Buddha painting",
+    "width": 1280,
+    "height": 960,
+    "source": "2023/02/richfarmerbaliroom-3.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/deluxe-three-beds-640.webp",
+        "kb": 35
+      },
+      {
+        "w": 1024,
+        "src": "/images/deluxe-three-beds-1024.webp",
+        "kb": 70
+      },
+      {
+        "w": 1280,
+        "src": "/images/deluxe-three-beds-1280.webp",
+        "kb": 97
+      }
+    ]
+  },
+  "deluxe-terrace-door": {
+    "alt": "Brick terrace with a bench, opening into a room with canopy beds",
+    "width": 1280,
+    "height": 960,
+    "source": "2023/02/richfarmerbaliroom-4.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/deluxe-terrace-door-640.webp",
+        "kb": 66
+      },
+      {
+        "w": 1024,
+        "src": "/images/deluxe-terrace-door-1024.webp",
+        "kb": 138
+      },
+      {
+        "w": 1280,
+        "src": "/images/deluxe-terrace-door-1280.webp",
+        "kb": 195
+      }
+    ]
+  },
+  "deluxe-basin": {
+    "alt": "Bathroom with a vessel basin and timber-framed mirror",
+    "width": 1280,
+    "height": 962,
+    "source": "2023/02/richfarmerbaliroom-5.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/deluxe-basin-640.webp",
+        "kb": 19
+      },
+      {
+        "w": 1024,
+        "src": "/images/deluxe-basin-1024.webp",
+        "kb": 36
+      },
+      {
+        "w": 1280,
+        "src": "/images/deluxe-basin-1280.webp",
+        "kb": 49
+      }
+    ]
+  },
+  "deluxe-canopy-bed": {
+    "alt": "Canopy bed with a mosquito net, beside a brick wall",
+    "width": 1280,
+    "height": 960,
+    "source": "2023/02/richfarmerbaliroom-6.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/deluxe-canopy-bed-640.webp",
+        "kb": 34
+      },
+      {
+        "w": 1024,
+        "src": "/images/deluxe-canopy-bed-1024.webp",
+        "kb": 65
+      },
+      {
+        "w": 1280,
+        "src": "/images/deluxe-canopy-bed-1280.webp",
+        "kb": 90
+      }
+    ]
+  },
+  "deluxe-room-tv": {
+    "alt": "Room with canopy beds, a smart TV and glass doors to the garden",
+    "width": 1280,
+    "height": 962,
+    "source": "2023/02/richfarmerbaliroom-7.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/deluxe-room-tv-640.webp",
+        "kb": 36
+      },
+      {
+        "w": 1024,
+        "src": "/images/deluxe-room-tv-1024.webp",
+        "kb": 68
+      },
+      {
+        "w": 1280,
+        "src": "/images/deluxe-room-tv-1280.webp",
+        "kb": 93
+      }
+    ]
+  },
+  "deluxe-terrace-view": {
+    "alt": "Terrace bench looking out over the garden toward the hills",
+    "width": 1280,
+    "height": 962,
+    "source": "2023/02/richfarmerbaliroom-8.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/deluxe-terrace-view-640.webp",
+        "kb": 65
+      },
+      {
+        "w": 1024,
+        "src": "/images/deluxe-terrace-view-1024.webp",
+        "kb": 128
+      },
+      {
+        "w": 1280,
+        "src": "/images/deluxe-terrace-view-1280.webp",
+        "kb": 174
+      }
+    ]
+  },
+  "deluxe-twin-beds": {
+    "alt": "Twin beds with mosquito nets and a vase of flowers between them",
+    "width": 1200,
+    "height": 901,
+    "source": "2023/02/twin-bed.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/deluxe-twin-beds-640.webp",
+        "kb": 25
+      },
+      {
+        "w": 1200,
+        "src": "/images/deluxe-twin-beds-1200.webp",
+        "kb": 65
+      }
+    ]
+  },
+  "garden-terrace": {
+    "alt": "Covered terrace by a reflecting pool, looking toward the hills",
+    "width": 1200,
+    "height": 901,
+    "source": "2023/02/garden-terrace-richfarmer.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/garden-terrace-640.webp",
+        "kb": 69
+      },
+      {
+        "w": 1200,
+        "src": "/images/garden-terrace-1200.webp",
+        "kb": 206
+      }
+    ]
+  },
+  "restaurant": {
+    "alt": "Open-air restaurant with green tablecloths under a timber roof",
+    "width": 1022,
+    "height": 768,
+    "source": "2023/02/restaurant-richfarmer.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/restaurant-640.webp",
+        "kb": 60
+      },
+      {
+        "w": 1022,
+        "src": "/images/restaurant-1022.webp",
+        "kb": 136
+      }
+    ]
+  },
+  "canopy-beds-square": {
+    "alt": "Canopy beds in a brick-walled room",
+    "width": 801,
+    "height": 799,
+    "source": "2023/02/richfarmer-bali.webp",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/canopy-beds-square-640.webp",
+        "kb": 35
+      },
+      {
+        "w": 801,
+        "src": "/images/canopy-beds-square-801.webp",
+        "kb": 53
+      }
+    ]
+  },
+  "pool-umbrellas": {
+    "alt": "Pool with a large sun umbrella and loungers",
+    "width": 1024,
+    "height": 576,
+    "source": "2023/02/richfarmer.webp",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/pool-umbrellas-640.webp",
+        "kb": 33
+      },
+      {
+        "w": 1024,
+        "src": "/images/pool-umbrellas-1024.webp",
+        "kb": 90
+      }
+    ]
+  },
+  "yoga-boulder": {
+    "alt": "Three women practising yoga in front of the Taman Bidadari boulder",
+    "width": 945,
+    "height": 628,
+    "source": "2023/02/best-yoga-on-bali.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/yoga-boulder-640.webp",
+        "kb": 39
+      },
+      {
+        "w": 945,
+        "src": "/images/yoga-boulder-945.webp",
+        "kb": 64
+      }
+    ]
+  },
+  "yoga-garden": {
+    "alt": "Guests stretching during a yoga class in the garden",
+    "width": 690,
+    "height": 467,
+    "source": "2023/02/best-yoga-on-bali-indonesia.jpg",
+    "variants": [
+      {
+        "w": 690,
+        "src": "/images/yoga-garden-690.webp",
+        "kb": 27
+      }
+    ]
+  },
+  "snorkel-turtle": {
+    "alt": "Two snorkellers swimming beside a sea turtle",
+    "width": 701,
+    "height": 467,
+    "source": "2023/02/diving-buleleng-1.jpg",
+    "variants": [
+      {
+        "w": 701,
+        "src": "/images/snorkel-turtle-701.webp",
+        "kb": 37
+      }
+    ]
+  },
+  "learn-to-dive": {
+    "alt": "Instructor helping a diver with scuba equipment in the water",
+    "width": 700,
+    "height": 468,
+    "source": "2023/02/learn-to-dive.jpg",
+    "variants": [
+      {
+        "w": 700,
+        "src": "/images/learn-to-dive-700.webp",
+        "kb": 39
+      }
+    ]
+  },
+  "dance-lesson": {
+    "alt": "Guests following a Balinese dance lesson on the lawn",
+    "width": 700,
+    "height": 468,
+    "source": "2023/02/learn-to-dance-in-bali.jpg",
+    "variants": [
+      {
+        "w": 700,
+        "src": "/images/dance-lesson-700.webp",
+        "kb": 61
+      }
+    ]
+  },
+  "culture-night": {
+    "alt": "Balinese dancer performing with a guest on the lawn at night",
+    "width": 700,
+    "height": 468,
+    "source": "2023/02/culture-activity.jpg",
+    "variants": [
+      {
+        "w": 700,
+        "src": "/images/culture-night-700.webp",
+        "kb": 38
+      }
+    ]
+  },
+  "beach-picnic": {
+    "alt": "Guests on beanbags for a picnic on the beach at sunset",
+    "width": 700,
+    "height": 466,
+    "source": "2023/02/picnic-on-the-beach.jpg",
+    "variants": [
+      {
+        "w": 700,
+        "src": "/images/beach-picnic-700.webp",
+        "kb": 33
+      }
+    ]
+  },
+  "cooking-class": {
+    "alt": "Guests in aprons preparing dishes at a long table during a cooking class",
+    "width": 1080,
+    "height": 1350,
+    "source": "2025/01/cooking-class-1.jpeg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/cooking-class-640.webp",
+        "kb": 84
+      },
+      {
+        "w": 1080,
+        "src": "/images/cooking-class-1080.webp",
+        "kb": 174
+      }
+    ]
+  },
+  "spa-massage": {
+    "alt": "Therapist giving a back massage in a treatment room",
+    "width": 945,
+    "height": 628,
+    "source": "2023/02/best-spa-on-bali.jpg",
+    "variants": [
+      {
+        "w": 640,
+        "src": "/images/spa-massage-640.webp",
+        "kb": 28
+      },
+      {
+        "w": 945,
+        "src": "/images/spa-massage-945.webp",
+        "kb": 49
+      }
+    ]
+  }
+}

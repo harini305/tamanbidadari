@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+.vercel/
+*.log
+.env*
+
+# Local-only project material (not part of the website). The audit contains
+# security findings about the old WordPress site, test screenshots and the
+# unedited source photographs; keep it out of the public repository.
+docs/
+AGENTS.md

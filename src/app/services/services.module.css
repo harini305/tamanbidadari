@@ -1,0 +1,81 @@
+.grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(1.5rem, 1.2rem + 1vw, 2.25rem) var(--gutter);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.media {
+  aspect-ratio: 4 / 3;
+  margin-bottom: 0.65rem;
+}
+
+.name {
+  font-weight: 400;
+}
+
+.item p {
+  max-width: 26rem;
+}
+
+/* Experiences without a matching photograph: a typographic panel the same
+   height as a photographed item. */
+.textItem {
+  justify-content: flex-end;
+  padding: clamp(1.5rem, 1.2rem + 1vw, 2.25rem);
+  background: var(--sand);
+  border-top: 2px solid var(--orange);
+}
+
+.ask {
+  margin-top: 0.75rem;
+  align-self: flex-start;
+}
+
+.textItem .name {
+  font-size: clamp(1.625rem, 1.35rem + 0.9vw, 2.125rem);
+}
+
+
+
+
+.facList {
+  width: 100%;
+  max-width: 36rem;
+  list-style: none;
+  border-top: 1px solid var(--line-strong);
+}
+
+.facList li {
+  padding-block: 0.8rem;
+  border-bottom: 1px solid var(--line);
+}
+
+
+
+
+@media (max-width: 960px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .grid > li:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .textItem {
+    min-height: 12rem;
+  }
+}
